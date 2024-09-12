@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/SimpleTestGuide
+# Install script for directory: C:/Users/felip/CLionProjects/CS106X/SimpleTestGuide
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

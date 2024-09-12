@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/SPL-unit-tests
+# Install script for directory: C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

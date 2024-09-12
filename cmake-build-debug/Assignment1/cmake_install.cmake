@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Assignment1
+# Install script for directory: C:/Users/felip/CLionProjects/CS106X/Assignment1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,5 +1,5 @@
-C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/cmake-build-debug/CS106_library_autogen/include/moc_geventqueue.cpp: C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/graphics/geventqueue.h \
-  C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/cmake-build-debug/CS106_library_autogen/moc_predefs.h \
+C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/CS106_library_autogen/include/moc_geventqueue.cpp: C:/Users/felip/CLionProjects/CS106X/Library/graphics/geventqueue.h \
+  C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/CS106_library_autogen/moc_predefs.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/QObject \
   C:/Qt/6.7.2/mingw_64/include/QtCore/QReadWriteLock \
   C:/Qt/6.7.2/mingw_64/include/QtCore/Qt \
@@ -104,16 +104,16 @@ C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master
   C:/Qt/6.7.2/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qxptype_traits.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/qyieldcpu.h \
-  C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/collections/collections.h \
-  C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/collections/deque.h \
-  C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/collections/hashcode.h \
-  C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/collections/queue.h \
-  C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/collections/vector.h \
-  C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/graphics/gevent.h \
-  C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/graphics/gtypes.h \
-  C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/system/error.h \
-  C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/util/gmath.h \
-  C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/util/random.h \
+  C:/Users/felip/CLionProjects/CS106X/Library/collections/collections.h \
+  C:/Users/felip/CLionProjects/CS106X/Library/collections/deque.h \
+  C:/Users/felip/CLionProjects/CS106X/Library/collections/hashcode.h \
+  C:/Users/felip/CLionProjects/CS106X/Library/collections/queue.h \
+  C:/Users/felip/CLionProjects/CS106X/Library/collections/vector.h \
+  C:/Users/felip/CLionProjects/CS106X/Library/graphics/gevent.h \
+  C:/Users/felip/CLionProjects/CS106X/Library/graphics/gtypes.h \
+  C:/Users/felip/CLionProjects/CS106X/Library/system/error.h \
+  C:/Users/felip/CLionProjects/CS106X/Library/util/gmath.h \
+  C:/Users/felip/CLionProjects/CS106X/Library/util/random.h \
   C:/msys64/mingw64/include/_mingw.h \
   C:/msys64/mingw64/include/_mingw_mac.h \
   C:/msys64/mingw64/include/_mingw_off_t.h \

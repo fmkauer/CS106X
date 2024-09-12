@@ -1,13 +1,13 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/cmake-build-debug/SimpleTestGuide/SimpleTestGuide_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/cmake-build-debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/cmake-build-debug/SimpleTestGuide",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/SimpleTestGuide",
+	"BUILD_DIR" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/SimpleTestGuide/SimpleTestGuide_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/SimpleTestGuide",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/felip/CLionProjects/CS106X/SimpleTestGuide",
 	"CMAKE_EXECUTABLE" : "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/SimpleTestGuide/CMakeLists.txt",
+		"C:/Users/felip/CLionProjects/CS106X/SimpleTestGuide/CMakeLists.txt",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
@@ -33,14 +33,14 @@
 		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master",
+	"CMAKE_SOURCE_DIR" : "C:/Users/felip/CLionProjects/CS106X",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/cmake-build-debug/SimpleTestGuide/SimpleTestGuide_autogen/deps",
+	"DEP_FILE" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/SimpleTestGuide/SimpleTestGuide_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "SimpleTestGuide_autogen/timestamp",
 	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/cmake-build-debug/SimpleTestGuide/SimpleTestGuide_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/cmake-build-debug/SimpleTestGuide/SimpleTestGuide_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/SimpleTestGuide/SimpleTestGuide_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/SimpleTestGuide/SimpleTestGuide_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -67,16 +67,16 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library",
-		"C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/collections",
-		"C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/console",
-		"C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/graphics",
-		"C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/io",
-		"C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/private",
-		"C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/resources",
-		"C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/system",
-		"C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/util",
-		"C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/testing",
+		"C:/Users/felip/CLionProjects/CS106X/Library",
+		"C:/Users/felip/CLionProjects/CS106X/Library/collections",
+		"C:/Users/felip/CLionProjects/CS106X/Library/console",
+		"C:/Users/felip/CLionProjects/CS106X/Library/graphics",
+		"C:/Users/felip/CLionProjects/CS106X/Library/io",
+		"C:/Users/felip/CLionProjects/CS106X/Library/private",
+		"C:/Users/felip/CLionProjects/CS106X/Library/resources",
+		"C:/Users/felip/CLionProjects/CS106X/Library/system",
+		"C:/Users/felip/CLionProjects/CS106X/Library/util",
+		"C:/Users/felip/CLionProjects/CS106X/Library/testing",
 		"C:/Qt/6.7.2/mingw_64/include/QtCore",
 		"C:/Qt/6.7.2/mingw_64/include",
 		"C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++",
@@ -110,31 +110,31 @@
 		"-c",
 		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/cmake-build-debug/SimpleTestGuide/SimpleTestGuide_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/SimpleTestGuide/SimpleTestGuide_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 6,
-	"PARSE_CACHE_FILE" : "C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/cmake-build-debug/SimpleTestGuide/CMakeFiles/SimpleTestGuide_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/SimpleTestGuide/CMakeFiles/SimpleTestGuide_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.7.2/mingw_64/./bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/6.7.2/mingw_64/./bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 7,
-	"SETTINGS_FILE" : "C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/cmake-build-debug/SimpleTestGuide/CMakeFiles/SimpleTestGuide_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/SimpleTestGuide/CMakeFiles/SimpleTestGuide_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/SimpleTestGuide/main.cpp",
+			"C:/Users/felip/CLionProjects/CS106X/SimpleTestGuide/main.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/SimpleTestGuide/simpletestguide.cpp",
+			"C:/Users/felip/CLionProjects/CS106X/SimpleTestGuide/simpletestguide.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/SimpleTestGuide/unittest.cpp",
+			"C:/Users/felip/CLionProjects/CS106X/SimpleTestGuide/unittest.cpp",
 			"MU",
 			null
 		]

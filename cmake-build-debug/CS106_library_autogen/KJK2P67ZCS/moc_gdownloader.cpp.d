@@ -1,5 +1,5 @@
-C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/cmake-build-debug/CS106_library_autogen/KJK2P67ZCS/moc_gdownloader.cpp: C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/graphics/gdownloader.h \
-  C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/cmake-build-debug/CS106_library_autogen/moc_predefs.h \
+C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/CS106_library_autogen/KJK2P67ZCS/moc_gdownloader.cpp: C:/Users/felip/CLionProjects/CS106X/Library/graphics/gdownloader.h \
+  C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/CS106_library_autogen/moc_predefs.h \
   C:/Qt/6.7.2/mingw_64/include/QtCore/QFlags \
   C:/Qt/6.7.2/mingw_64/include/QtCore/QIODevice \
   C:/Qt/6.7.2/mingw_64/include/QtCore/QList \
@@ -147,15 +147,15 @@ C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master
   C:/Qt/6.7.2/mingw_64/include/QtNetwork/qtnetwork-config.h \
   C:/Qt/6.7.2/mingw_64/include/QtNetwork/qtnetworkexports.h \
   C:/Qt/6.7.2/mingw_64/include/QtNetwork/qtnetworkglobal.h \
-  C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/collections/collections.h \
-  C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/collections/hashcode.h \
-  C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/collections/map.h \
-  C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/collections/stack.h \
-  C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/collections/vector.h \
-  C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/graphics/gtypes.h \
-  C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/system/error.h \
-  C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/util/gmath.h \
-  C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Library/util/random.h \
+  C:/Users/felip/CLionProjects/CS106X/Library/collections/collections.h \
+  C:/Users/felip/CLionProjects/CS106X/Library/collections/hashcode.h \
+  C:/Users/felip/CLionProjects/CS106X/Library/collections/map.h \
+  C:/Users/felip/CLionProjects/CS106X/Library/collections/stack.h \
+  C:/Users/felip/CLionProjects/CS106X/Library/collections/vector.h \
+  C:/Users/felip/CLionProjects/CS106X/Library/graphics/gtypes.h \
+  C:/Users/felip/CLionProjects/CS106X/Library/system/error.h \
+  C:/Users/felip/CLionProjects/CS106X/Library/util/gmath.h \
+  C:/Users/felip/CLionProjects/CS106X/Library/util/random.h \
   C:/msys64/mingw64/include/_mingw.h \
   C:/msys64/mingw64/include/_mingw_mac.h \
   C:/msys64/mingw64/include/_mingw_off_t.h \

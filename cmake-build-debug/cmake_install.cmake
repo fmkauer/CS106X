@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master
+# Install script for directory: C:/Users/felip/CLionProjects/CS106X
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,22 +39,42 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/cmake-build-debug/Welcome/cmake_install.cmake")
+  include("C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/Welcome/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/cmake-build-debug/SPL-unit-tests/cmake_install.cmake")
+  include("C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/SPL-unit-tests/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/cmake-build-debug/SimpleTestGuide/cmake_install.cmake")
+  include("C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/SimpleTestGuide/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/cmake-build-debug/Assignment1/cmake_install.cmake")
+  include("C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/Assignment1/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/CS106B/Assignment1/Problem1/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/CS106B/Assignment1/Problem2/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/CS106B/Assignment1/Problem3/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/CS106B/Assignment1/Problem4/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -65,5 +85,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

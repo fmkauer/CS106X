@@ -135,6 +135,7 @@ qt_add_library(CS106_library STATIC
         ${LIBRARY_SRC}
         ${LIBRARY_HEADER}
         ${RCC_SOURCES}
+        CS106B/Assignment1/Problem1/Censorship.cpp
 )
 
 # Link CS106 library to required Qt libraries
@@ -145,6 +146,10 @@ add_subdirectory(Welcome)
 add_subdirectory(SPL-unit-tests)
 add_subdirectory(SimpleTestGuide)
 add_subdirectory(Assignment1)
+add_subdirectory(CS106B/Assignment1/Problem1)
+add_subdirectory(CS106B/Assignment1/Problem2)
+add_subdirectory(CS106B/Assignment1/Problem3)
+add_subdirectory(CS106B/Assignment1/Problem4)
 
 # TODO: These need to be fixed/tested
 # add_subdirectory(RandomClientTests/BugFixes)

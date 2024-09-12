@@ -115,10 +115,86 @@ rule CXX_EXECUTABLE_LINKER__Assignment1_Debug
 
 
 #############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Censorship_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}C:\msys64\mingw64\bin\c++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Censorship_Debug
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\mingw64\bin\c++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__FilesAndStructs_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}C:\msys64\mingw64\bin\c++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__FilesAndStructs_Debug
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\mingw64\bin\c++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Vectors_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}C:\msys64\mingw64\bin\c++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Vectors_Debug
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\mingw64\bin\c++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__MemoryDiagram_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}C:\msys64\mingw64\bin\c++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__MemoryDiagram_Debug
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\msys64\mingw64\bin\c++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\felip\Downloads\stanford-cpp-library-master\stanford-cpp-library-master -BC:\Users\felip\Downloads\stanford-cpp-library-master\stanford-cpp-library-master\cmake-build-debug
+  command = "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\felip\CLionProjects\CS106X -BC:\Users\felip\CLionProjects\CS106X\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
@@ -127,7 +203,7 @@ rule RERUN_CMAKE
 # Rule for re-checking globbed directories.
 
 rule VERIFY_GLOBS
-  command = "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -P C:\Users\felip\Downloads\stanford-cpp-library-master\stanford-cpp-library-master\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake
+  command = "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -P C:\Users\felip\CLionProjects\CS106X\cmake-build-debug\CMakeFiles\VerifyGlobs.cmake
   description = Re-checking globbed directories...
   generator = 1
 
