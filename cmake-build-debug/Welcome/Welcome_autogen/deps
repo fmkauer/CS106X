@@ -1,0 +1,27 @@
+Welcome_autogen/timestamp: \
+	C:/Program\ Files/JetBrains/CLion\ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake \
+	C:/Program\ Files/JetBrains/CLion\ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake \
+	C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake \
+	C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
+	C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
+	C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
+	C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake \
+	C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Targets.cmake \
+	C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake \
+	C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtFeature.cmake \
+	C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtFeatureCommon.cmake \
+	C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
+	C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
+	C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
+	C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
+	C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
+	C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
+	C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
+	C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
+	C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
+	C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
+	C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
+	C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
+	C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Welcome/CMakeLists.txt \
+	C:/Users/felip/Downloads/stanford-cpp-library-master/stanford-cpp-library-master/Welcome/welcome.cpp \
+	C:/Program\ Files/JetBrains/CLion\ 2024.2.1/bin/cmake/win/x64/bin/cmake.exe

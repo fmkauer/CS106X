@@ -1,0 +1,71 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"SPL-unit-tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "SPL-unit-tests_autogen_timestamp_deps::@b9bdfebc4ea54702599c"
+		}
+	],
+	"id" : "SPL-unit-tests_autogen::@b9bdfebc4ea54702599c",
+	"isGeneratorProvided" : true,
+	"name" : "SPL-unit-tests_autogen",
+	"paths" : 
+	{
+		"build" : "SPL-unit-tests",
+		"source" : "SPL-unit-tests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/SPL-unit-tests/CMakeFiles/SPL-unit-tests_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/SPL-unit-tests/CMakeFiles/SPL-unit-tests_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/SPL-unit-tests/SPL-unit-tests_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

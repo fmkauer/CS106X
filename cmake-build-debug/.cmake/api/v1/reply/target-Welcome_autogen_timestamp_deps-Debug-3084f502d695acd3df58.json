@@ -1,0 +1,34 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"Welcome/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "CS106_library::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "Welcome_autogen_timestamp_deps::@18ec669de973b4483db9",
+	"isGeneratorProvided" : true,
+	"name" : "Welcome_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "Welcome",
+		"source" : "Welcome"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
