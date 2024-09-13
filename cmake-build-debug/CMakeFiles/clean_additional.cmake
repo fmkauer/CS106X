@@ -3,9 +3,6 @@ cmake_minimum_required(VERSION 3.16)
 
 if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "Debug")
   file(REMOVE_RECURSE
-  "Assignment1\\Assignment1_autogen"
-  "Assignment1\\CMakeFiles\\Assignment1_autogen.dir\\AutogenUsed.txt"
-  "Assignment1\\CMakeFiles\\Assignment1_autogen.dir\\ParseCache.txt"
   "CMakeFiles\\CS106_library_autogen.dir\\AutogenUsed.txt"
   "CMakeFiles\\CS106_library_autogen.dir\\ParseCache.txt"
   "CS106B\\Assignment1\\Problem1\\CMakeFiles\\Censorship_autogen.dir\\AutogenUsed.txt"
@@ -20,6 +17,9 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "Debug")
   "CS106B\\Assignment1\\Problem4\\CMakeFiles\\MemoryDiagram_autogen.dir\\AutogenUsed.txt"
   "CS106B\\Assignment1\\Problem4\\CMakeFiles\\MemoryDiagram_autogen.dir\\ParseCache.txt"
   "CS106B\\Assignment1\\Problem4\\MemoryDiagram_autogen"
+  "CS106XAssignments\\life\\CMakeFiles\\Life_autogen.dir\\AutogenUsed.txt"
+  "CS106XAssignments\\life\\CMakeFiles\\Life_autogen.dir\\ParseCache.txt"
+  "CS106XAssignments\\life\\Life_autogen"
   "CS106_library_autogen"
   "SPL-unit-tests\\CMakeFiles\\SPL-unit-tests_autogen.dir\\AutogenUsed.txt"
   "SPL-unit-tests\\CMakeFiles\\SPL-unit-tests_autogen.dir\\ParseCache.txt"

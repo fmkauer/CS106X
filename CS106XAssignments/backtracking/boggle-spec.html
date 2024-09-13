@@ -1,0 +1,566 @@
+<!--#set var="TITLE" value=" - Boggle" -->
+<!--#include virtual="../shared/hw-header.html" -->
+
+<h1>Stanford CS 106X: Boggle</h1>
+
+<p class="credits">
+	Assignment by Marty Stepp and Victoria Kirst.
+	Based on a problem by Julie Zelenski and Eric Roberts.
+</p>
+
+<ul class="documentoutline">
+	<li><a href="#description">Description</a></li>
+	<li><a href="#implementation">Implementation</a></li>
+	<li><a href="#style">Style</a></li>
+	<li><a href="#faq">FAQ</a></li>
+	<li><a href="#extrafeatures">Extras</a></li>
+</ul>
+
+<p class="pairprogrammingno">
+	This problem focuses on exhaustive search and recursive backtracking.
+	This is an <strong>individual assignment</strong>.
+	Write your own solution and do not work in a pair/group on this program.
+</p>
+
+
+<h2 id="files">Files and Links:</h2>
+
+<div class="largefileboxrow">
+	<div class="largefilebox">
+		<a href="<!--#echo var="HOMEWORKDIR" -->/boggle-starter-files.zip">
+			<img src="<!--#echo var="IMAGEDIR" -->/icon48-zip.gif" class="largeicon" alt="icon" /><br />
+			Project Starter ZIP</a> <br />
+			(open <span class="filename">Boggle.pro</span>)
+	</div>
+
+	<div class="largefilebox">
+		<a class="popup honorcodelink" href="http://paperless.stanford.edu/">
+			<img src="<!--#echo var="IMAGEDIR" -->/icon48-paperless.gif" class="largeicon" alt="icon" /><br />
+			Turn in</a>:
+
+		<ul>
+			<li>
+				<img src="<!--#echo var="IMAGEDIR" -->/icon_cpp.gif" class="icon" alt="icon" />
+				<span class="filename">bogglesearch.cpp</span>
+			</li>
+		</ul>
+	</div>
+
+	<div class="largefilebox">
+		<a href="<!--#echo var="HOMEWORKDIR" -->/cs106x-backtracking-demo.jar">
+			<img src="<!--#echo var="IMAGEDIR" -->/icon48-jar.gif" class="largeicon" alt="icon" /><br />
+			Demo JAR</a>
+		<!--
+		<br />
+			<div class="howtorunsamplesolution clicktoshow" rel="How to run it?">
+<!-#include virtual="../shared/jar-how-to-run.html" ->
+</div>
+		-->
+	</div>
+
+	<div class="largefilebox">
+		<a class="popup" href="http://goo.gl/forms/abir2WG4ob">
+			<img src="<!--#echo var="IMAGEDIR" -->/icon48-survey.gif" class="largeicon" alt="icon" /><br />
+			Homework Survey</a>
+	</div>
+
+	<div class="largefilebox">
+		<div class="largefilebox">
+
+				<img src="<!--#echo var="IMAGEDIR" -->/icon48-txt.gif" class="largeicon" alt="icon" /><br />
+				output logs:
+		</div>
+
+		<ul class="filelist">
+			<li><a href="<!--#echo var="HOMEWORKDIR" -->/output/boggle-expected-output-1.txt"><img class="icon" src="<!--#echo var="IMAGEDIR" -->/icon_txt.gif" alt="icon" /> log #1</a></li>
+			<li><a href="<!--#echo var="HOMEWORKDIR" -->/output/boggle-expected-output-2.txt"><img class="icon" src="<!--#echo var="IMAGEDIR" -->/icon_txt.gif" alt="icon" /> log #2</a></li>
+			<li><a href="<!--#echo var="HOMEWORKDIR" -->/output/boggle-expected-output-3.txt"><img class="icon" src="<!--#echo var="IMAGEDIR" -->/icon_txt.gif" alt="icon" /> log #3</a></li>
+			<li><a href="<!--#echo var="HOMEWORKDIR" -->/output/boggle-expected-output-4.txt"><img class="icon" src="<!--#echo var="IMAGEDIR" -->/icon_txt.gif" alt="icon" /> log #4 (5x5)</a></li>
+			<li><a href="<!--#echo var="HOMEWORKDIR" -->/output/boggle-expected-output-5.txt"><img class="icon" src="<!--#echo var="IMAGEDIR" -->/icon_txt.gif" alt="icon" /> log #5 (6x6)</a></li>
+
+			<li style="margin-top: 0.5em"><a href="<!--#echo var="HOMEWORKDIR" -->/output/boggle-screenshot-1.png"><img class="icon" src="<!--#echo var="IMAGEDIR" -->/icon_png.gif" alt="icon" /> screenshot #1</a></li>
+			<li><a href="<!--#echo var="HOMEWORKDIR" -->/output/boggle-screenshot-2.png"><img class="icon" src="<!--#echo var="IMAGEDIR" -->/icon_png.gif" alt="icon" /> screenshot #2</a></li>
+			<li><a href="<!--#echo var="HOMEWORKDIR" -->/output/boggle-screenshot-3.png"><img class="icon" src="<!--#echo var="IMAGEDIR" -->/icon_png.gif" alt="icon" /> screenshot #3</a></li>
+		</ul>
+	</div>
+</div>
+
+
+<h2 id="description">Problem Description:</h2>
+
+<div class="figure">
+	<img src="bogglegame.jpg" alt="boggle game" class="figure" />
+</div>
+
+<p>
+	<strong>Boggle</strong> is a board game with a 4x4 square grid of letter cubes where players try to make words by connecting letters on adjacent cubes.
+	For this part of the assignment, you will write code to search a Boggle board for words using backtracking.
+</p>
+
+<p>
+	We provide you with starter code in <span class="filename">bogglemain.cpp</span> that implements the text user interface of the game.
+	You must write the functions to search the board for words in <span class="filename">bogglesearch.cpp</span>.
+</p>
+
+<p>
+	<img src="letter-cube.jpg" alt="lettercube" style="float: right; max-width: 20%; margin-left: 1em" />
+
+	<strong>Letter cubes</strong> are 6-sided dice with a letter on each side rather than a number.
+	In the real game, you shake up the letter cubes and lay them out on the board.
+	In our version, we will ask you to type the 16 letters that make up the board.
+</p>
+
+<p>
+	The goal is to find words on the board by tracing a path through <strong>neighboring letters</strong>.
+	Two letter cubes are neighbors if they are next to each other horizontally, vertically, or diagonally.
+	Therefore there are up to eight neighbors near a cube.
+	Each cube can be used at most once in a given word.
+</p>
+
+<p>
+	In the real-life version of this game, all players work at the same time, listing the words they find on a piece of paper.
+	But in the version we will write, a single human player will play a single turn against an omniscient computer opponent.
+</p>
+
+<p>
+	The <strong>human player</strong> plays first, entering words one by one.
+	Your code verifies that the word is is at least 4 letters long, then uses backtracking to see if the word can be made using letters on the board, using any cube at most once.
+</p>
+
+<p>
+	Once the player has found as many words as they can, the <strong>computer player</strong> takes a turn.
+	The computer searches through the board using recursive backtracking to find all the possible words that can be formed.
+	The computer's algorithm is similar to the human's, but rather than verifying the existence of a single word in the board, you are exhaustively finding the set of all possible words.
+</p>
+
+<p>
+	<em>Comparing output:</em>
+	Your program uses an instructor-provided <strong>graphical user interface</strong>, and it produces only a small amount of console output.
+	The Stanford console window does not pop up; the console output will appear in the bottom Application Output area of Qt Creator to help you debug your code.
+	You can copy/paste your console output from the bottom of Qt Creator into our web-based <a class="popup" target="_blank" href="diff.shtml">Output Comparison Tool page</a> to see if your boards' words match ours.
+</p>
+
+<div class="figure">
+	<img src="boggle-screenshot-1.png" alt="screenshot" class="figure" />
+</div>
+
+
+<h2 id="implementation">Implementation Details:</h2>
+
+<p>
+	You must implement the following functions to complete the Boggle game.
+	You must write the functions with <u>exactly</u> the headers shown here.
+	(It is fine to have "helper functions" as needed.)
+	None of your functions should print any output to the console.
+</p>
+
+<h3 id="randomboard">Utility function: Generate a random board</h3>
+
+<pre class="cpp">
+Grid&lt;char&gt; <strong>generateRandomBoard</strong>(int size, const Vector&lt;std::string&gt;& letterCubes)
+</pre>
+
+<p>
+	In this function you should generate and return a random Boggle board of the given size using the given collection of letter cube values.
+	This function is <strong>not recursive</strong> and can be implemented using loops.
+	The <em>size</em> parameter is the number of rows or columns; for example, if <em>size</em> is 4, you should return a grid with 4 rows and 4 columns to represent a 4x4 game board.
+	You may assume that a valid size has been passed (between 4 and 6 inclusive).
+</p>
+
+<p>
+	The vector of cubes passed represents the letter cubes to be "rolled" to generate your random board.
+	Assume that the vector contains exactly <em>size</em> * <em>size</em> strings, each of which is exactly 6 characters long.
+</p>
+
+<p>
+	The standard Boggle game comes with sixteen letter cubes, each with particular letters on each of their six faces.
+	The letters on each cube are not random; they were chosen in such a way that common letters come up more often and it is easier to get a good mix of vowels and consonants.
+	We want your Boggle game to match this.
+	The following table lists all of the letters on all six faces of each of the sixteen cubes from the original Boggle.
+	You don't need to declare these cubes in your code; these are the sixteen string elements of the vector that is passed to your function.
+</p>
+
+<pre class="output">
+AAEEGN, ABBJOO, ACHOPS, AFFKPS,
+AOOTTW, CIMOTU, DEILRX, DELRVY,
+DISTTY, EEGHNW, EEINSU, EHRTVW,
+EIOSST, ELRTTY, HIMNQU, HLNNRZ
+</pre>
+
+<p>
+	At the beginning of each game, you must "shake" (randomize) the board cubes.  There are two different random aspects to consider:
+</p>
+
+<ol>
+	<li>
+		A random location on the NxN game board should be chosen for each cube.
+		(For example, the <code>AAEEGN</code> cube should not always appear in the top-left square of the board; it should randomly appear in one of the 16 available squares with equal probability.)
+	</li>
+	<li>
+		A random side from each cube should be chosen to be the face-up letter of that cube.
+		(For example, the <code>AAEEGN</code> cube should not always show A; it should randomly show A 1/3 of the time, E 1/3 of the time, G 1/6 of the time, and N 1/6 of the time.)
+	</li>
+</ol>
+
+<p>
+	The Stanford C++ libraries have a file <span class="filename">&quot;shuffle.h&quot;</span> with a <code>shuffle</code> function you can use to rearrange the elements of an array, Vector, or Grid.
+	See shuffle.h if you are curious about how the shuffling algorithm works.
+	(<a class="popup" target="_blank" href="http://stanford.edu/~stepp/cppdoc/shuffle.html">shuffle.h documentation</a>)
+</p>
+
+<p>
+	If the user has selected 5x5 Big Boggle, you will be passed size of 5 and a 25-element vector of letter cubes, and you should return an appropriate 5x5 grid.
+	If the user has selected 6x6 Super Big Boggle, you will be passed size of 6 and a 36-element vector of letter cubes, and you should return an appropriate 6x6 grid.
+</p>
+
+<p>
+	The game also has an option where the user can enter a manual board configuration rather than choosing one randomly.
+	In this option, rather than randomly choosing the letters to be on the board, the user enters a string of 16 (or 25, or 36) characters, representing the cubes from left to right, top to bottom.
+	This is a useful feature for testing your code and can be used even if your random board code is incomplete or broken.
+	You don't need to write any code to support the manual board configuration option; it is already provided by the GUI.
+	The manual configuration is a loophole because it allows the user to type a board that is not possible to create using the real letter cubes, such as a board of all Qs or something like that.
+	We won't try to catch and prevent such a thing, partly because it is useful to be able to test your code on unusual boards.
+</p>
+
+
+<h3 id="human">Human player's turn:</h3>
+
+<pre class="cpp">
+bool <strong>humanWordSearch</strong>(const Grid&lt;char&gt;& board, const Lexicon&amp; dictionary, const string&amp; word)
+</pre>
+
+<p>
+	Implement the human turn by writing a <code>humanWordSearch</code> function with exactly the heading above.
+	The grid of characters represents the game board, and the string word represents the word that the player wants you to search for.
+	Your function should determine whether this word can be formed by connecting neighboring cubes of letters on the board.
+	If so, you should return <code>true</code>; if not, you should return <code>false</code>.
+</p>
+
+<p>
+	Certain cases should cause your function to <em>immediately</em> return <code>false</code> and not perform any recursive search.
+	One such special case is if the word passed is not found in the given dictionary.
+	Another special case is if the word passed has a length less than <code>BoggleGUI::MIN_WORD_LENGTH</code> (which defaults to 4).
+</p>
+
+<p>
+	Your code for this function should use <strong>recursive backtracking</strong> to search the board for the letters of the given word.
+	If the word is an unsuitable length (less than the minimum just described), you should not perform the recursive search.
+	Your method should be <strong>case-insensitive</strong>; you should properly search for the word whether it is passed in upper, lower, or mixed case.
+	You may assume that the characters on the board grid are all uppercase letters from A-Z, and that the word passed contains no characters other than letters from A-Z.
+</p>
+
+<p>
+	Recall that algorithms that use backtracking often rely on additional parameters to keep track of choices.
+	For either of the functions in this problem, you may write <strong>helper functions</strong> that accept any parameters you like, so long as your overall <code>humanWordSearch</code> function has <u>exactly</u> the heading above.
+	Your function should not modify the board grid or dictionary lexicon that are passed to it, which is part of the reason they are declared as <code>const</code>.
+</p>
+
+<p>
+	You don't want to visit the same letter cube twice during a given exploration, so for the search algorithm to work, your code needs some way to <strong>"mark"</strong> whether a letter cube has been visited or not.
+	In the Maze problem, we gave you a class that helped you to "mark" squares, but in this problem you will need to come up with your own way to get a similar effect.
+	You will have to decide what is the best strategy to use for marking; it's up to you, as long as it is efficient and works.
+</p>
+
+<p>
+	<em>Scoring:</em>
+	If the word is valid and can be formed on the board (if your method would return <code>true</code>), you must also indicate to the GUI that the player has scored points.
+	You can do this using the method <code>BoggleGUI::scorePoints</code> as described later in this document.
+	The length of the word determines the score as follows:
+</p>
+
+<ul>
+	<li>
+		Words of 4 or fewer letters are worth 1 point.
+	</li>
+	<li>
+		5-letter words are worth 2 points.
+	</li>
+	<li>
+		6-letter words are worth 3 points.
+	</li>
+	<li>
+		7-letter words are worth 5 points.
+	</li>
+	<li>
+		Words longer than 7 letters are worth 11 points.
+	</li>
+</ul>
+
+<p>
+	There is no penalty for trying an invalid word, but invalid words also do not count toward the player's list or score.
+</p>
+
+<p>
+	<em>Graphics:</em>
+	As each cube is explored, you should <strong>highlight</strong> it in the GUI to perform an animated search with a 100ms delay (see GUI section later).
+	That is, when your search looks at a given cube on the board and examines it to decide whether it can be included in the word you are searching for, set it to be highlighted.
+	If you backtrack and decide not to use that letter cube in your word search, set it to be un-highlighted.
+	At the start of your human word search, you should clear any highlighting that exists on any letter cubes from previous searches.
+	You can do the highlighting using the methods <code>BoggleGUI::setHighlighted</code> and <code>BoggleGUI::clearHighlighting</code> as described later in this document.
+</p>
+
+<p>
+	<em>Board size:</em>
+	Note that both of your word search functions must work properly whether you are passed a 4x4, 5x5, 6x6, or any other size board.
+	You may assume that the board's state is valid, that every character in the grid is an uppercase letter from A-Z, and so on.
+</p>
+
+
+<h3 id="computer">Computer player's turn:</h3>
+
+<pre class="cpp">
+Set&lt;string&gt; <strong>computerWordSearch</strong>(const Grid&lt;char&gt;&amp; board,
+                                                      const Lexicon&amp; dictionary,
+                                                      const Set&lt;string&gt;&amp; humanWords)
+</pre>
+
+<p>
+	Implement the computer's turn word search by writing a <code>computerWordSearch</code> function with exactly the heading above.
+	The grid of characters represents the game board, and the lexicon represents the set of all valid English words in the dictionary.
+	Your code should find <em>every word</em> that can be made on the given board that is at least 4 letters long and is found in the given dictionary.
+	Your function should return a <code>Set</code> of all such words, all in uppercase.
+</p>
+
+<p>
+	Your code for this function should use <strong>recursive backtracking</strong> to search the board for all suitable words that can be formed using its letters.
+	The idea is to do a search starting from each of the 16 letter cubes, looking for all valid words that start with that cube's letter.
+	You can explore that starting cube, then each of its neighboring cubes, then each neighbor's neighbor, and so on.
+	Along the way, as you find valid words, you should gather them into a collection, which will eventually be returned at the end of all exploration.
+</p>
+
+<p>
+	Though similar to your human search, the code is different because you should look for all words, not just verify a single word.
+	Therefore we insist that the code for the computer search must be implemented separately from <code>humanWordSearch</code>.
+	<strong>Repeat: Do not try to combine the human and computer into a single helper function, and do not have one of the wordSearch functions call the other one.  Write them as completely separate algorithms.</strong>
+</p>
+
+<p>
+	Your computer word search is passed a set of strings representing all of the words that the human found during his/her turn.
+	The computer's goal is to find all of the words that the human did <u>not</u> already find.
+	So if your recursive search finds a word that was already found by the human, you should not include it in the result that is returned by your computer word search.
+</p>
+
+<p>
+	<em>Scoring:</em>
+	As with the human player's turn, you must compute the number of points scored by the computer for each word and indicate this to the GUI using the method <code>BoggleGUI::scorePoints</code>.
+	See the section on the human word search for the list of how many points each word is worth.
+</p>
+
+<p>
+	<em>Efficiency and pruning</em>:
+	Efficiency is very important for this part of the program.
+	It is important to limit the search to ensure that the process can be completed quickly.
+	If written properly, the code to find all words on the board should run in around one second or less.
+	To make sure your code is efficient enough, you must perform the following optimizations:
+</p>
+
+<ul>
+	<li>
+		use a <code>Lexicon</code> to store the English dictionary, and do not needlessly copy the lexicon
+	</li>
+	<li>
+		prune the tree of searches by not exploring partial paths that will be unable to form a valid word
+	</li>
+	<li>
+		use efficient data structures otherwise in your program (e.g. to represent which words are already found)
+	</li>
+</ul>
+
+<p>
+	<em>Pruning:</em>
+	One of the most important Boggle strategies is to <strong>prune dead-end searches</strong>.
+	The <code>Lexicon</code> has a <code>containsPrefix</code> function that accepts a <code>string</code> and returns <code>true</code> if any word in the dictionary begins with that substring.
+	For example, if the first cube you examine shows the letter Z and your algorithm tries to explore one of its neighbors that shows an X, your path would start with ZX.
+	In this case, <code><var>lex</var>.containsPrefix("ZX")</code> will return <code>false</code> to inform you that there are no English words that begin with the prefix "ZX".
+	Therefore your algorithm should stop that path and move on to other combinations.
+	If you do not implement this optimization, your search will be too slow.
+</p>
+
+<p>
+	<em>Graphics:</em>
+	Unlike the human search, the computer word search <strong>does not perform any highlighting</strong> in the GUI.
+	You should, however, tell the GUI to score the points for each valid word that the computer finds.
+</p>
+
+<p>
+	Make sure to extensively <strong>test</strong> your program.
+	Run the demo solution linked from this document to see the expected behavior of your program.
+	When in doubt, match the behavior described in this spec and/or that of the demo.
+</p>
+
+<h3 id="gui">Graphical User Interface (GUI):</h3>
+
+<p>
+	This problem uses an instructor-provided graphical user interface (GUI) for all user interaction rather than a console UI.
+	The GUI is represented by the files <span class="filename">bogglegui.h</span> and <span class="filename">bogglegui.cpp</span>.
+	The <code>BoggleGUI</code> class has the following static member functions that you can call as needed from your Boggle searching code:
+</p>
+
+<table class="methodtable">
+	<tr>
+		<th>Static Member Function</th>
+		<th>Description</th>
+	</tr>
+
+	<tr>
+		<td>
+			<code>
+				BoggleGUI::clearHighlight();
+			</code>
+		</td>
+		<td>
+			Sets all letter cubes to be un-highlighted.
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<code>
+				BoggleGUI::playSound("<var>filename</var>");
+			</code>
+		</td>
+		<td>
+			plays a sound effect from the given audio file
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<code>
+				BoggleGUI::scorePointsHuman(<var>points</var>);
+			</code>
+		</td>
+		<td>
+			Adds the given number of points to the human player's score
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<code>
+				BoggleGUI::scorePointsHuman(<var>points</var>);
+			</code>
+		</td>
+		<td>
+			Adds the given number of points to the computer player's score
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<code>
+				BoggleGUI::setHighlighted(<var>row</var>, <var>col</var>, <var>highlighted</var>);
+			</code>
+		</td>
+		<td>
+			Sets the letter cube at the given 0-based row/col index to be highlighted (<code>true</code>) or un-highlighted (<code>false</code>)
+		</td>
+	</tr>
+</table>
+
+
+<h2 id="style">Style Details:</h2>
+
+<p>
+	As in other assignments, you should follow our <a class="popup" href="../../styleguide.shtml"><strong>Style Guide</strong></a> for information about expected coding style.
+	You are also expected to follow all of the general style constraints emphasized in the Homework 1-3 specs, such as the ones about good problem decomposition, parameters, using proper C++ idioms, and commenting.
+	The following are additional points of emphasis and style contraints specific to this problem:
+</p>
+
+<p>
+	<em>Recursion and backtracking:</em>
+	Part of your grade will come from appropriately utilizing recursive backtracking to implement your word-finding algorithm as described previously.
+	We will also grade on the elegance of your recursive algorithm; don't create special cases in your recursive code if they are not necessary.
+	Avoid <strong>"arm's length" recursion</strong>, which is where the true base case is not found and unnecessary code/logic is stuck into the recursive case.
+	Efficiency of your recursive backtracking algorithms, such as avoiding dead-end searches by pruning, is very important.
+</p>
+
+<p>
+	<strong>Redundancy</strong> in recursive code is another major grading focus; avoid repeated logic as much as possible.
+	As mentioned previously, it is fine (sometimes necessary) to use "helper" functions to assist you in implementing the recursive algorithms for any part of the assignment.
+</p>
+
+<p>
+	<em>Variables:</em>
+	While this constraint is not new to this assignment, we want to stress that you should not make any <strong>global variables</strong> or <strong>static variables</strong> (unless they are constants declared with the <code>const</code> keyword).
+	Do not use globals as a way of getting around proper recursion and parameter-passing on this assignment.
+</p>
+
+<p>
+	<em>Loops/Collections:</em>
+	Loops and collections *are* allowed on this problem.
+	But your fundamental algorithm must be recursive and not based on looping to perform the entire word search.
+	You must use recursion to handle the self-similar aspects of the problem.
+</p>
+
+<p>
+	<em>Commenting:</em>
+	Of course you should have a comment header at the top of your code file and on top of each function.
+	But we want to remind you that you should also have <strong>inline comments</strong> inside functions to explain complex sections of the code.
+	Don't forget to place descriptive inline comments as needed on any complex code in the bodies to describe nontrivial parts of your algorithms.
+</p>
+
+
+<h2 id="faq">Frequently Asked Questions (FAQ):</h2>
+
+<p>
+	For each assignment problem, we receive various frequent student questions.
+	The answers to some of those questions can be found by clicking the link below.
+</p>
+
+<div class="faqarea clicktoshow" rel="Boggle FAQ">
+<!--#include virtual="boggle-faq.html" -->
+</div>
+
+
+<h2 id="extrafeatures">Possible Extra Features:</h2>
+
+<p>
+	Here are some ideas for extra features that you could add to your program:
+</p>
+
+<ul class="extrafeatureslist">
+	<li>
+		<strong>Make the Q a useful letter:</strong>
+		The Q is largely useless unless it is adjacent to a U, so the real Boggle prints Qu together on a single face of the cube.
+		You use both letters together, a strategy that not only makes the Q more playable but also allows you to increase your score because the combination counts as two letters.
+	</li>
+	<li>
+		<strong>Embellish the GUI:</strong>
+		Our Boggle GUI module is supplied in source form so you can adapt into a snazzier interface.
+		For example, the current game merely highlights the word; it might be nice if it also drew lines or arrows marking the connections.
+		Or you could use the Stanford C++ library's <span class="filename">"gevent.h"</span> facilities to let the user assemble a word by clicking or dragging the mouse through the letter cubes.
+		Make it play sounds.
+		Etc.
+	</li>
+	<li>
+		<strong>Board exploration:</strong>
+		As you will learn, some Boggle boards are a lot more fruitful that others.
+		Write some code to discover things about the possible boards.
+		Is there an arrangement of the standard cubes that produces a board containing no words?
+		What about an arrangement that produces a longest word, maybe even using all the cubes?
+		What is the highest-scoring board you can construct?
+		Recursion will be handy in trying out all the possible arrangements, but there are a lot of options (do the math on all the permutations...), so you may need to come up with some heuristics to direct your explorations.
+	</li>
+	<li>
+		<strong>Other:</strong>
+		If you have your own creative idea for an extra feature, ask your SL and/or the instructor about it.
+	</li>
+</ul>
+
+<p>
+	<em>Indicating that you have done extra features:</em>
+	If you complete any extra features, then in the comment heading on the top of your program, please list all extra features that you worked on and where in the code they can be found (what functions, lines, etc. so that the grader can look at their code easily).
+</p>
+
+<p>
+	<em>Submitting a program with extra features:</em>
+	Since we use automated testing for part of our grading process, it is important that you submit a program that conforms to the preceding spec, even if you want to do extra features.
+	If your feature(s) cause your program to change the output that it produces in such a way that it no longer matches the expected sample output test cases provided, you should submit two versions of your program file:
+	a first one with the standard file name without any extra features added (or with all necessary features disabled or commented out), and a second one whose file name has the suffix <span class="filename">-extra.cpp</span> with the extra features enabled.
+	Please distinguish them in by explaining which is which in the comment header.
+	Our turnin system saves every submission you make, so if you make multiple submissions we will be able to view all of them; your previously submitted files will not be lost or overwritten.
+</p>
+
+
+<!--#include virtual="../shared/hw-footer.html" -->

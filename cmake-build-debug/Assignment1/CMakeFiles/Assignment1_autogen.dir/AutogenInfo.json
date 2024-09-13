@@ -1,13 +1,13 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/Assignment1/Assignment1_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/Assignment1",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/felip/CLionProjects/CS106X/Assignment1",
+	"BUILD_DIR" : "C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/Assignment1/Assignment1_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/Assignment1",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Villela/CLionProjects/CS106X/Assignment1",
 	"CMAKE_EXECUTABLE" : "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/felip/CLionProjects/CS106X/Assignment1/CMakeLists.txt",
+		"C:/Users/Villela/CLionProjects/CS106X/Assignment1/CMakeLists.txt",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
@@ -33,14 +33,14 @@
 		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/felip/CLionProjects/CS106X",
+	"CMAKE_SOURCE_DIR" : "C:/Users/Villela/CLionProjects/CS106X",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/Assignment1/Assignment1_autogen/deps",
+	"DEP_FILE" : "C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/Assignment1/Assignment1_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "Assignment1_autogen/timestamp",
 	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/Assignment1/Assignment1_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/Assignment1/Assignment1_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/Assignment1/Assignment1_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/Assignment1/Assignment1_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -67,16 +67,16 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"C:/Users/felip/CLionProjects/CS106X/Library",
-		"C:/Users/felip/CLionProjects/CS106X/Library/collections",
-		"C:/Users/felip/CLionProjects/CS106X/Library/console",
-		"C:/Users/felip/CLionProjects/CS106X/Library/graphics",
-		"C:/Users/felip/CLionProjects/CS106X/Library/io",
-		"C:/Users/felip/CLionProjects/CS106X/Library/private",
-		"C:/Users/felip/CLionProjects/CS106X/Library/resources",
-		"C:/Users/felip/CLionProjects/CS106X/Library/system",
-		"C:/Users/felip/CLionProjects/CS106X/Library/util",
-		"C:/Users/felip/CLionProjects/CS106X/Library/testing",
+		"C:/Users/Villela/CLionProjects/CS106X/Library",
+		"C:/Users/Villela/CLionProjects/CS106X/Library/collections",
+		"C:/Users/Villela/CLionProjects/CS106X/Library/console",
+		"C:/Users/Villela/CLionProjects/CS106X/Library/graphics",
+		"C:/Users/Villela/CLionProjects/CS106X/Library/io",
+		"C:/Users/Villela/CLionProjects/CS106X/Library/private",
+		"C:/Users/Villela/CLionProjects/CS106X/Library/resources",
+		"C:/Users/Villela/CLionProjects/CS106X/Library/system",
+		"C:/Users/Villela/CLionProjects/CS106X/Library/util",
+		"C:/Users/Villela/CLionProjects/CS106X/Library/testing",
 		"C:/Qt/6.7.2/mingw_64/include/QtCore",
 		"C:/Qt/6.7.2/mingw_64/include",
 		"C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++",
@@ -110,21 +110,21 @@
 		"-c",
 		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/Assignment1/Assignment1_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/Assignment1/Assignment1_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 6,
-	"PARSE_CACHE_FILE" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/Assignment1/CMakeFiles/Assignment1_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/Assignment1/CMakeFiles/Assignment1_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.7.2/mingw_64/./bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/6.7.2/mingw_64/./bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 7,
-	"SETTINGS_FILE" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/Assignment1/CMakeFiles/Assignment1_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/Assignment1/CMakeFiles/Assignment1_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Assignment1/Assignment1.cpp",
+			"C:/Users/Villela/CLionProjects/CS106X/Assignment1/Assignment1.cpp",
 			"MU",
 			null
 		]

@@ -9,8 +9,8 @@
 #else
     // Building from CMake
     #define SPL_VERSION "2023.1"
-    #define SPL_BUILD_DATE "12/09/2024"
-    #define SPL_BUILD_USER "felip"
+    #define SPL_BUILD_DATE "13/09/2024"
+    #define SPL_BUILD_USER "Villela"
 #endif
 
 #endif
