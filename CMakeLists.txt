@@ -151,6 +151,8 @@ add_subdirectory(CS106B/Assignment1/Problem3)
 add_subdirectory(CS106B/Assignment1/Problem4)
 add_subdirectory(CS106XAssignments/life)
 add_subdirectory(CS106XAssignments/adts/wordladder)
+add_subdirectory(CS106XAssignments/adts/ngrams)
+add_subdirectory(CS106XAssignments/adts/transpCipher)
 # TODO: These need to be fixed/tested
 # add_subdirectory(RandomClientTests/BugFixes)
 # add_subdirectory(RandomClientTests/CompileFlags)

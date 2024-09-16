@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "CS106B/Assignment1/Problem2",
+		"source" : "CS106B/Assignment1/Problem2"
+	}
+}

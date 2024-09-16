@@ -1,0 +1,34 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CS106XAssignments/adts/ngrams/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "CS106_library::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "NGrams_autogen_timestamp_deps::@8009166f6760f6929f66",
+	"isGeneratorProvided" : true,
+	"name" : "NGrams_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "CS106XAssignments/adts/ngrams",
+		"source" : "CS106XAssignments/adts/ngrams"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

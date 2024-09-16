@@ -309,6 +309,15 @@ Censorship_IS_TOP_LEVEL:STATIC=OFF
 Censorship_SOURCE_DIR:STATIC=C:/Users/Villela/CLionProjects/CS106X/CS106B/Assignment1/Problem1
 
 //Value Computed by CMake
+Cipher_BINARY_DIR:STATIC=C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/transpCipher
+
+//Value Computed by CMake
+Cipher_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Cipher_SOURCE_DIR:STATIC=C:/Users/Villela/CLionProjects/CS106X/CS106XAssignments/adts/transpCipher
+
+//Value Computed by CMake
 Fauxtoshop_BINARY_DIR:STATIC=C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/fauxtoshop
 
 //Value Computed by CMake
@@ -343,6 +352,15 @@ MemoryDiagram_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 MemoryDiagram_SOURCE_DIR:STATIC=C:/Users/Villela/CLionProjects/CS106X/CS106B/Assignment1/Problem4
+
+//Value Computed by CMake
+NGrams_BINARY_DIR:STATIC=C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/ngrams
+
+//Value Computed by CMake
+NGrams_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+NGrams_SOURCE_DIR:STATIC=C:/Users/Villela/CLionProjects/CS106X/CS106XAssignments/adts/ngrams
 
 //Additional directories where find(Qt6 ...) host Qt components
 // are searched
@@ -587,7 +605,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

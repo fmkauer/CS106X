@@ -1,0 +1,34 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CS106XAssignments/adts/transpCipher/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "CS106_library::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "Cipher_autogen_timestamp_deps::@63ff60f65da37ccedf4a",
+	"isGeneratorProvided" : true,
+	"name" : "Cipher_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "CS106XAssignments/adts/transpCipher",
+		"source" : "CS106XAssignments/adts/transpCipher"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

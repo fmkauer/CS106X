@@ -1,0 +1,34 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CS106B/Assignment1/Problem1/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "CS106_library::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "Censorship_autogen_timestamp_deps::@08726ecf9b0bef2aaf8b",
+	"isGeneratorProvided" : true,
+	"name" : "Censorship_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "CS106B/Assignment1/Problem1",
+		"source" : "CS106B/Assignment1/Problem1"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

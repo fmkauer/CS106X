@@ -1,0 +1,71 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CS106XAssignments/adts/transpCipher/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "Cipher_autogen_timestamp_deps::@63ff60f65da37ccedf4a"
+		}
+	],
+	"id" : "Cipher_autogen::@63ff60f65da37ccedf4a",
+	"isGeneratorProvided" : true,
+	"name" : "Cipher_autogen",
+	"paths" : 
+	{
+		"build" : "CS106XAssignments/adts/transpCipher",
+		"source" : "CS106XAssignments/adts/transpCipher"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CS106XAssignments/adts/transpCipher/CMakeFiles/Cipher_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CS106XAssignments/adts/transpCipher/CMakeFiles/Cipher_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CS106XAssignments/adts/transpCipher/Cipher_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

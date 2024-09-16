@@ -1,0 +1,34 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CS106B/Assignment1/Problem3/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "CS106_library::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "Vectors_autogen_timestamp_deps::@1a0a7500e862e32ae270",
+	"isGeneratorProvided" : true,
+	"name" : "Vectors_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "CS106B/Assignment1/Problem3",
+		"source" : "CS106B/Assignment1/Problem3"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

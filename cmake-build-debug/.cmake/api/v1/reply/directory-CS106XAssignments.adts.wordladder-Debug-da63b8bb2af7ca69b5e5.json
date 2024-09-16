@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "CS106XAssignments/adts/wordladder",
+		"source" : "CS106XAssignments/adts/wordladder"
+	}
+}

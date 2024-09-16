@@ -1,0 +1,34 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CS106XAssignments/adts/wordladder/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "CS106_library::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "WordLadder_autogen_timestamp_deps::@cca8baa5cca7e6429aa9",
+	"isGeneratorProvided" : true,
+	"name" : "WordLadder_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "CS106XAssignments/adts/wordladder",
+		"source" : "CS106XAssignments/adts/wordladder"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

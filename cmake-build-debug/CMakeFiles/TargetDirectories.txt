@@ -48,3 +48,13 @@ C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/w
 C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/wordladder/CMakeFiles/rebuild_cache.dir
 C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/wordladder/CMakeFiles/WordLadder_autogen_timestamp_deps.dir
 C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/wordladder/CMakeFiles/WordLadder_autogen.dir
+C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/ngrams/CMakeFiles/NGrams.dir
+C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/ngrams/CMakeFiles/edit_cache.dir
+C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/ngrams/CMakeFiles/rebuild_cache.dir
+C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/ngrams/CMakeFiles/NGrams_autogen_timestamp_deps.dir
+C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/ngrams/CMakeFiles/NGrams_autogen.dir
+C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/transpCipher/CMakeFiles/Cipher.dir
+C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/transpCipher/CMakeFiles/edit_cache.dir
+C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/transpCipher/CMakeFiles/rebuild_cache.dir
+C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/transpCipher/CMakeFiles/Cipher_autogen_timestamp_deps.dir
+C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/transpCipher/CMakeFiles/Cipher_autogen.dir
