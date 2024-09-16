@@ -43,3 +43,8 @@ C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/life/C
 C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/life/CMakeFiles/rebuild_cache.dir
 C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/life/CMakeFiles/Life_autogen_timestamp_deps.dir
 C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/life/CMakeFiles/Life_autogen.dir
+C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/wordladder/CMakeFiles/WordLadder.dir
+C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/wordladder/CMakeFiles/edit_cache.dir
+C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/wordladder/CMakeFiles/rebuild_cache.dir
+C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/wordladder/CMakeFiles/WordLadder_autogen_timestamp_deps.dir
+C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/wordladder/CMakeFiles/WordLadder_autogen.dir

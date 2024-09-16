@@ -309,6 +309,15 @@ Censorship_IS_TOP_LEVEL:STATIC=OFF
 Censorship_SOURCE_DIR:STATIC=C:/Users/Villela/CLionProjects/CS106X/CS106B/Assignment1/Problem1
 
 //Value Computed by CMake
+Fauxtoshop_BINARY_DIR:STATIC=C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/fauxtoshop
+
+//Value Computed by CMake
+Fauxtoshop_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Fauxtoshop_SOURCE_DIR:STATIC=C:/Users/Villela/CLionProjects/CS106X/CS106XAssignments/fauxtoshop
+
+//Value Computed by CMake
 FilesAndStructs_BINARY_DIR:STATIC=C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106B/Assignment1/Problem2
 
 //Value Computed by CMake
@@ -422,6 +431,15 @@ Welcome_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 Welcome_SOURCE_DIR:STATIC=C:/Users/Villela/CLionProjects/CS106X/Welcome
+
+//Value Computed by CMake
+WordLadder_BINARY_DIR:STATIC=C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/wordladder
+
+//Value Computed by CMake
+WordLadder_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+WordLadder_SOURCE_DIR:STATIC=C:/Users/Villela/CLionProjects/CS106X/CS106XAssignments/adts/wordladder
 
 //Value Computed by CMake
 stanford-cpp-library_BINARY_DIR:STATIC=C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug
@@ -569,7 +587,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

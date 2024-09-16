@@ -22,5 +22,8 @@ set(__QT_DEPLOY_TARGET_MemoryDiagram_RUNTIME_DLLS C:/Qt/6.7.2/mingw_64/bin/Qt6Wi
 set(__QT_DEPLOY_TARGET_Life_FILE C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/life/Life.exe)
 set(__QT_DEPLOY_TARGET_Life_TYPE EXECUTABLE)
 set(__QT_DEPLOY_TARGET_Life_RUNTIME_DLLS C:/Qt/6.7.2/mingw_64/bin/Qt6Widgets.dll;C:/Qt/6.7.2/mingw_64/bin/Qt6Network.dll;C:/Qt/6.7.2/mingw_64/bin/Qt6Gui.dll;C:/Qt/6.7.2/mingw_64/bin/Qt6Core.dll)
+set(__QT_DEPLOY_TARGET_WordLadder_FILE C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/CS106XAssignments/adts/wordladder/WordLadder.exe)
+set(__QT_DEPLOY_TARGET_WordLadder_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_WordLadder_RUNTIME_DLLS C:/Qt/6.7.2/mingw_64/bin/Qt6Widgets.dll;C:/Qt/6.7.2/mingw_64/bin/Qt6Network.dll;C:/Qt/6.7.2/mingw_64/bin/Qt6Gui.dll;C:/Qt/6.7.2/mingw_64/bin/Qt6Core.dll)
 set(__QT_DEPLOY_TARGET_CS106_library_FILE C:/Users/Villela/CLionProjects/CS106X/cmake-build-debug/libCS106_library.a)
 set(__QT_DEPLOY_TARGET_CS106_library_TYPE STATIC_LIBRARY)

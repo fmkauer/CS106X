@@ -54,7 +54,6 @@ include_directories("${CS106_LIB_PATH}/resources")
 include_directories("${CS106_LIB_PATH}/system")
 include_directories("${CS106_LIB_PATH}/util")
 include_directories("${CS106_LIB_PATH}/testing")
-
 # Copy resources folder into per-user writable data location from QtStandardPaths
 if (WIN32)
     set(QTP_EXE "qtpaths6.exe")
@@ -151,6 +150,7 @@ add_subdirectory(CS106B/Assignment1/Problem2)
 add_subdirectory(CS106B/Assignment1/Problem3)
 add_subdirectory(CS106B/Assignment1/Problem4)
 add_subdirectory(CS106XAssignments/life)
+add_subdirectory(CS106XAssignments/adts/wordladder)
 # TODO: These need to be fixed/tested
 # add_subdirectory(RandomClientTests/BugFixes)
 # add_subdirectory(RandomClientTests/CompileFlags)
