@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Villela/CLionProjects/CS106X/CS106B/Assignment1/Problem3
+# Install script for directory: C:/Users/felip/CLionProjects/CS106X/CS106B/Assignment1/Problem3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
