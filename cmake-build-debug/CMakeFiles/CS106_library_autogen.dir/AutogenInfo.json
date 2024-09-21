@@ -1,43 +1,177 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/CS106_library_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/felip/CLionProjects/CS106X",
-	"CMAKE_EXECUTABLE" : "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/bin/cmake.exe",
+	"BUILD_DIR" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/CS106_library_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/felip/CLionProjects/CS106X/CMakeLists.txt",
-		"C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake",
-		"C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake",
-		"C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake",
-		"C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/CMakeLists.txt",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystem.cmake.in",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeMinGWFindMake.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Determine-CXX.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/CMakeFiles/3.29.6/CMakeRCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
@@ -46,13 +180,13 @@
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Targets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtFeature.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtFeatureCommon.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake",
@@ -66,28 +200,28 @@
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake",
@@ -96,14 +230,14 @@
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersion.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersionImpl.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateAdditionalTargetInfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersion.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfigVersionImpl.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateAdditionalTargetInfo.cmake",
@@ -116,22 +250,22 @@
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Core/QtInstallPaths.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindVulkan.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindVulkan.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/FindPackageMessage.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake",
@@ -143,64 +277,64 @@
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake",
@@ -213,14 +347,14 @@
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6NetworkDependencies.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6NetworkTargets-relwithdebinfo.cmake",
@@ -228,566 +362,566 @@
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6NetworkPlugins.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6QNLMNIPluginConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6QNLMNIPluginTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6QNLMNIPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6QNLMNIPluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6QSchannelBackendPluginConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6QSchannelBackendPluginTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6QSchannelBackendPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6QSchannelBackendPluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginConfig.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake",
-		"C:/Users/felip/CLionProjects/CS106X/Library/private/build.h.in",
-		"C:/Users/felip/CLionProjects/CS106X/Library/images.qrc"
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/private/build.h.in",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/images.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/felip/CLionProjects/CS106X",
+	"CMAKE_SOURCE_DIR" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/CS106_library_autogen/deps",
+	"DEP_FILE" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/CS106_library_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "CS106_library_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/basicgraph.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/basicgraph.h",
 			"MU",
 			"UJ6PCKMYNA/moc_basicgraph.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/collections.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/collections.h",
 			"MU",
 			"UJ6PCKMYNA/moc_collections.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/dawglexicon.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/dawglexicon.h",
 			"MU",
 			"UJ6PCKMYNA/moc_dawglexicon.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/deque.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/deque.h",
 			"MU",
 			"UJ6PCKMYNA/moc_deque.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/graph.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/graph.h",
 			"MU",
 			"UJ6PCKMYNA/moc_graph.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/grid.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/grid.h",
 			"MU",
 			"UJ6PCKMYNA/moc_grid.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/gridlocation.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/gridlocation.h",
 			"MU",
 			"UJ6PCKMYNA/moc_gridlocation.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/hashcode.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/hashcode.h",
 			"MU",
 			"UJ6PCKMYNA/moc_hashcode.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/hashmap.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/hashmap.h",
 			"MU",
 			"UJ6PCKMYNA/moc_hashmap.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/hashset.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/hashset.h",
 			"MU",
 			"UJ6PCKMYNA/moc_hashset.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/lexicon.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/lexicon.h",
 			"MU",
 			"UJ6PCKMYNA/moc_lexicon.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/linkedlist.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/linkedlist.h",
 			"MU",
 			"UJ6PCKMYNA/moc_linkedlist.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/map.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/map.h",
 			"MU",
 			"UJ6PCKMYNA/moc_map.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/priorityqueue.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/priorityqueue.h",
 			"MU",
 			"UJ6PCKMYNA/moc_priorityqueue.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/queue.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/queue.h",
 			"MU",
 			"UJ6PCKMYNA/moc_queue.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/set.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/set.h",
 			"MU",
 			"UJ6PCKMYNA/moc_set.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/stack.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/stack.h",
 			"MU",
 			"UJ6PCKMYNA/moc_stack.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/trielexicon.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/trielexicon.h",
 			"MU",
 			"UJ6PCKMYNA/moc_trielexicon.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/vector.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/vector.h",
 			"MU",
 			"UJ6PCKMYNA/moc_vector.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/console/console.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/console/console.h",
 			"MU",
 			"YFOU254HWI/moc_console.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/console/consolestreambuf.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/console/consolestreambuf.h",
 			"MU",
 			"YFOU254HWI/moc_consolestreambuf.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/console/consoletext.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/console/consoletext.h",
 			"MU",
 			"YFOU254HWI/moc_consoletext.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/console/echoinputstreambuf.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/console/echoinputstreambuf.h",
 			"MU",
 			"YFOU254HWI/moc_echoinputstreambuf.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/console/forwardingstreambuf.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/console/forwardingstreambuf.h",
 			"MU",
 			"YFOU254HWI/moc_forwardingstreambuf.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/console/gconsolewindow.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/console/gconsolewindow.h",
 			"MU",
 			"YFOU254HWI/moc_gconsolewindow.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/console/ioutils.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/console/ioutils.h",
 			"MU",
 			"YFOU254HWI/moc_ioutils.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/console/limitoutputstreambuf.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/console/limitoutputstreambuf.h",
 			"MU",
 			"YFOU254HWI/moc_limitoutputstreambuf.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/console/plainconsole.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/console/plainconsole.h",
 			"MU",
 			"YFOU254HWI/moc_plainconsole.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gbrowserpane.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gbrowserpane.h",
 			"MU",
 			"KJK2P67ZCS/moc_gbrowserpane.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gbutton.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gbutton.h",
 			"MU",
 			"KJK2P67ZCS/moc_gbutton.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gcanvas.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gcanvas.h",
 			"MU",
 			"KJK2P67ZCS/moc_gcanvas.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gcheckbox.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gcheckbox.h",
 			"MU",
 			"KJK2P67ZCS/moc_gcheckbox.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gchooser.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gchooser.h",
 			"MU",
 			"KJK2P67ZCS/moc_gchooser.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gclipboard.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gclipboard.h",
 			"MU",
 			"KJK2P67ZCS/moc_gclipboard.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gcolor.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gcolor.h",
 			"MU",
 			"KJK2P67ZCS/moc_gcolor.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gcolorchooser.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gcolorchooser.h",
 			"MU",
 			"KJK2P67ZCS/moc_gcolorchooser.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gcontainer.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gcontainer.h",
 			"MU",
 			"KJK2P67ZCS/moc_gcontainer.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gdiffimage.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gdiffimage.h",
 			"MU",
 			"KJK2P67ZCS/moc_gdiffimage.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gdownloader.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gdownloader.h",
 			"MU",
 			"KJK2P67ZCS/moc_gdownloader.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gdrawingsurface.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gdrawingsurface.h",
 			"MU",
 			"KJK2P67ZCS/moc_gdrawingsurface.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gevent.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gevent.h",
 			"MU",
 			"KJK2P67ZCS/moc_gevent.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/geventqueue.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/geventqueue.h",
 			"MU",
 			"KJK2P67ZCS/moc_geventqueue.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gfilechooser.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gfilechooser.h",
 			"MU",
 			"KJK2P67ZCS/moc_gfilechooser.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gfont.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gfont.h",
 			"MU",
 			"KJK2P67ZCS/moc_gfont.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gfontchooser.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gfontchooser.h",
 			"MU",
 			"KJK2P67ZCS/moc_gfontchooser.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/ginteractor.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/ginteractor.h",
 			"MU",
 			"KJK2P67ZCS/moc_ginteractor.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/ginteractors.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/ginteractors.h",
 			"MU",
 			"KJK2P67ZCS/moc_ginteractors.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/glabel.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/glabel.h",
 			"MU",
 			"KJK2P67ZCS/moc_glabel.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/glayout.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/glayout.h",
 			"MU",
 			"KJK2P67ZCS/moc_glayout.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gobjects.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gobjects.h",
 			"MU",
 			"KJK2P67ZCS/moc_gobjects.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gobservable.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gobservable.h",
 			"MU",
 			"KJK2P67ZCS/moc_gobservable.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/goptionpane.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/goptionpane.h",
 			"MU",
 			"KJK2P67ZCS/moc_goptionpane.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gradiobutton.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gradiobutton.h",
 			"MU",
 			"KJK2P67ZCS/moc_gradiobutton.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gscrollbar.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gscrollbar.h",
 			"MU",
 			"KJK2P67ZCS/moc_gscrollbar.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gscrollpane.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gscrollpane.h",
 			"MU",
 			"KJK2P67ZCS/moc_gscrollpane.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gslider.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gslider.h",
 			"MU",
 			"KJK2P67ZCS/moc_gslider.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gspacer.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gspacer.h",
 			"MU",
 			"KJK2P67ZCS/moc_gspacer.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gtable.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gtable.h",
 			"MU",
 			"KJK2P67ZCS/moc_gtable.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gtextarea.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gtextarea.h",
 			"MU",
 			"KJK2P67ZCS/moc_gtextarea.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gtextfield.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gtextfield.h",
 			"MU",
 			"KJK2P67ZCS/moc_gtextfield.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gthread.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gthread.h",
 			"MU",
 			"KJK2P67ZCS/moc_gthread.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gtimer.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gtimer.h",
 			"MU",
 			"KJK2P67ZCS/moc_gtimer.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gtypes.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gtypes.h",
 			"MU",
 			"KJK2P67ZCS/moc_gtypes.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gwindow.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gwindow.h",
 			"MU",
 			"KJK2P67ZCS/moc_gwindow.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/qtgui.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/qtgui.h",
 			"MU",
 			"KJK2P67ZCS/moc_qtgui.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/io/filelib.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/io/filelib.h",
 			"MU",
 			"UOS5Y7LQLG/moc_filelib.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/io/simpio.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/io/simpio.h",
 			"MU",
 			"UOS5Y7LQLG/moc_simpio.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/io/tokenscanner.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/io/tokenscanner.h",
 			"MU",
 			"UOS5Y7LQLG/moc_tokenscanner.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/io/urlstream.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/io/urlstream.h",
 			"MU",
 			"UOS5Y7LQLG/moc_urlstream.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/private/build.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/private/build.h",
 			"MU",
 			"Z6ZJ45LOOR/moc_build.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/private/headless.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/private/headless.h",
 			"MU",
 			"Z6ZJ45LOOR/moc_headless.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/private/init.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/private/init.h",
 			"MU",
 			"Z6ZJ45LOOR/moc_init.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/private/static.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/private/static.h",
 			"MU",
 			"Z6ZJ45LOOR/moc_static.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/system/error.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/system/error.h",
 			"MU",
 			"ULIFJQPTP2/moc_error.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/system/exceptions.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/system/exceptions.h",
 			"MU",
 			"ULIFJQPTP2/moc_exceptions.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/system/os.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/system/os.h",
 			"MU",
 			"ULIFJQPTP2/moc_os.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/testing/MemoryDiagnostics.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/testing/MemoryDiagnostics.h",
 			"MU",
 			"3QBKW6LAZS/moc_MemoryDiagnostics.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/testing/SimpleTest.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/testing/SimpleTest.h",
 			"MU",
 			"3QBKW6LAZS/moc_SimpleTest.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/testing/TestDriver.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/testing/TestDriver.h",
 			"MU",
 			"3QBKW6LAZS/moc_TestDriver.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/testing/TextUtils.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/testing/TextUtils.h",
 			"MU",
 			"3QBKW6LAZS/moc_TextUtils.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/util/direction.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/util/direction.h",
 			"MU",
 			"N33LK32OHE/moc_direction.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/util/gmath.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/util/gmath.h",
 			"MU",
 			"N33LK32OHE/moc_gmath.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/util/observable.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/util/observable.h",
 			"MU",
 			"N33LK32OHE/moc_observable.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/util/random.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/util/random.h",
 			"MU",
 			"N33LK32OHE/moc_random.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/util/require.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/util/require.h",
 			"MU",
 			"N33LK32OHE/moc_require.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/util/splversion.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/util/splversion.h",
 			"MU",
 			"N33LK32OHE/moc_splversion.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/util/strlib.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/util/strlib.h",
 			"MU",
 			"N33LK32OHE/moc_strlib.cpp",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/util/timer.h",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/util/timer.h",
 			"MU",
 			"N33LK32OHE/moc_timer.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/CS106_library_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/CS106_library_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/CS106_library_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/CS106_library_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -812,28 +946,29 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"C:/Users/felip/CLionProjects/CS106X/Library",
-		"C:/Users/felip/CLionProjects/CS106X/Library/collections",
-		"C:/Users/felip/CLionProjects/CS106X/Library/console",
-		"C:/Users/felip/CLionProjects/CS106X/Library/graphics",
-		"C:/Users/felip/CLionProjects/CS106X/Library/io",
-		"C:/Users/felip/CLionProjects/CS106X/Library/private",
-		"C:/Users/felip/CLionProjects/CS106X/Library/resources",
-		"C:/Users/felip/CLionProjects/CS106X/Library/system",
-		"C:/Users/felip/CLionProjects/CS106X/Library/util",
-		"C:/Users/felip/CLionProjects/CS106X/Library/testing",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/console",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/io",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/private",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/resources",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/system",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/util",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/testing",
 		"C:/Qt/6.7.2/mingw_64/include/QtCore",
 		"C:/Qt/6.7.2/mingw_64/include",
 		"C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++",
 		"C:/Qt/6.7.2/mingw_64/include/QtGui",
 		"C:/Qt/6.7.2/mingw_64/include/QtWidgets",
 		"C:/Qt/6.7.2/mingw_64/include/QtNetwork",
-		"C:/msys64/mingw64/include/c++/13.2.0",
-		"C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32",
-		"C:/msys64/mingw64/include/c++/13.2.0/backward",
-		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include",
-		"C:/msys64/mingw64/include",
-		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/include",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/x86_64-w64-mingw32/include"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -848,386 +983,386 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"C:/msys64/mingw64/bin/c++.exe",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/g++.exe",
 		"-std=gnu++11",
 		"-dM",
 		"-E",
 		"-c",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/CS106_library_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/CS106_library_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/qrc_images.cpp"
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/qrc_images.cpp"
 	],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 6,
-	"PARSE_CACHE_FILE" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/CMakeFiles/CS106_library_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 10,
+	"PARSE_CACHE_FILE" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/CMakeFiles/CS106_library_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.7.2/mingw_64/./bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/6.7.2/mingw_64/./bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 7,
-	"SETTINGS_FILE" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/CMakeFiles/CS106_library_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/CMakeFiles/CS106_library_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/felip/CLionProjects/CS106X/CS106B/Assignment1/Problem1/Censorship.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/CS106B/Assignment1/Problem1/Censorship.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/CS106XAssignments/life/life.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/CS106XAssignments/life/life.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/basicgraph.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/basicgraph.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/collections.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/collections.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/dawglexicon.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/dawglexicon.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/gridlocation.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/gridlocation.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/hashcode.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/hashcode.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/collections/trielexicon.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections/trielexicon.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/console/console.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/console/console.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/console/gconsolewindow.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/console/gconsolewindow.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/console/ioutils.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/console/ioutils.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/console/plainconsole.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/console/plainconsole.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gbrowserpane.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gbrowserpane.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gbutton.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gbutton.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gcanvas.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gcanvas.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gcheckbox.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gcheckbox.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gchooser.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gchooser.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gclipboard.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gclipboard.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gcolor.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gcolor.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gcolorchooser.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gcolorchooser.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gcontainer.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gcontainer.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gdiffimage.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gdiffimage.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gdownloader.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gdownloader.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gdrawingsurface.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gdrawingsurface.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gevent.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gevent.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/geventqueue.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/geventqueue.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gfilechooser.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gfilechooser.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gfont.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gfont.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gfontchooser.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gfontchooser.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/ginteractor.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/ginteractor.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/glabel.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/glabel.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/glayout.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/glayout.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gobjects.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gobjects.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gobservable.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gobservable.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/goptionpane.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/goptionpane.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gradiobutton.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gradiobutton.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gscrollbar.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gscrollbar.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gscrollpane.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gscrollpane.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gslider.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gslider.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gspacer.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gspacer.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gtable.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gtable.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gtextarea.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gtextarea.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gtextfield.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gtextfield.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gthread.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gthread.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gtimer.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gtimer.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gtypes.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gtypes.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/gwindow.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/gwindow.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/moc_unity.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/moc_unity.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/graphics/qtgui.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics/qtgui.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/io/filelib.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/io/filelib.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/io/simpio.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/io/simpio.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/io/tokenscanner.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/io/tokenscanner.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/io/urlstream.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/io/urlstream.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/private/filelibunix.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/private/filelibunix.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/private/filelibwindows.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/private/filelibwindows.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/private/init.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/private/init.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/private/librarymain.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/private/librarymain.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/private/mainwrapper.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/private/mainwrapper.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/system/error.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/system/error.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/system/exceptions.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/system/exceptions.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/system/os.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/system/os.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/testing/MemoryDiagnostics.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/testing/MemoryDiagnostics.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/testing/TestDriver.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/testing/TestDriver.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/testing/TestingGUI.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/testing/TestingGUI.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/testing/TextUtils.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/testing/TextUtils.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/util/direction.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/util/direction.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/util/gmath.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/util/gmath.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/util/random.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/util/random.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/util/require.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/util/require.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/util/splversion.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/util/splversion.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/util/strlib.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/util/strlib.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/Library/util/timer.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/util/timer.cpp",
 			"MU",
 			null
 		]
@@ -1236,7 +1371,7 @@
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
-		"C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/qrc_images.cpp"
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/qrc_images.cpp"
 	],
 	"UIC_UI_FILES" : [],
 	"USE_BETTER_GRAPH" : false,

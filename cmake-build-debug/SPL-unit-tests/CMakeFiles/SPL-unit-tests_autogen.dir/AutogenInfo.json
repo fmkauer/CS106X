@@ -1,13 +1,13 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/SPL-unit-tests/SPL-unit-tests_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/SPL-unit-tests",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests",
-	"CMAKE_EXECUTABLE" : "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/bin/cmake.exe",
+	"BUILD_DIR" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/SPL-unit-tests/SPL-unit-tests_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/SPL-unit-tests",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests",
+	"CMAKE_EXECUTABLE" : "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/CMakeLists.txt",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/CMakeLists.txt",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
@@ -16,7 +16,7 @@
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Targets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtFeature.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtFeatureCommon.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake",
@@ -30,17 +30,17 @@
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/felip/CLionProjects/CS106X",
+	"CMAKE_SOURCE_DIR" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/SPL-unit-tests/SPL-unit-tests_autogen/deps",
+	"DEP_FILE" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/SPL-unit-tests/SPL-unit-tests_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "SPL-unit-tests_autogen/timestamp",
 	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/SPL-unit-tests/SPL-unit-tests_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/SPL-unit-tests/SPL-unit-tests_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/SPL-unit-tests/SPL-unit-tests_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/SPL-unit-tests/SPL-unit-tests_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -67,28 +67,29 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"C:/Users/felip/CLionProjects/CS106X/Library",
-		"C:/Users/felip/CLionProjects/CS106X/Library/collections",
-		"C:/Users/felip/CLionProjects/CS106X/Library/console",
-		"C:/Users/felip/CLionProjects/CS106X/Library/graphics",
-		"C:/Users/felip/CLionProjects/CS106X/Library/io",
-		"C:/Users/felip/CLionProjects/CS106X/Library/private",
-		"C:/Users/felip/CLionProjects/CS106X/Library/resources",
-		"C:/Users/felip/CLionProjects/CS106X/Library/system",
-		"C:/Users/felip/CLionProjects/CS106X/Library/util",
-		"C:/Users/felip/CLionProjects/CS106X/Library/testing",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/collections",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/console",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/graphics",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/io",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/private",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/resources",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/system",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/util",
+		"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/Library/testing",
 		"C:/Qt/6.7.2/mingw_64/include/QtCore",
 		"C:/Qt/6.7.2/mingw_64/include",
 		"C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++",
 		"C:/Qt/6.7.2/mingw_64/include/QtGui",
 		"C:/Qt/6.7.2/mingw_64/include/QtWidgets",
 		"C:/Qt/6.7.2/mingw_64/include/QtNetwork",
-		"C:/msys64/mingw64/include/c++/13.2.0",
-		"C:/msys64/mingw64/include/c++/13.2.0/x86_64-w64-mingw32",
-		"C:/msys64/mingw64/include/c++/13.2.0/backward",
-		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include",
-		"C:/msys64/mingw64/include",
-		"C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/include",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/x86_64-w64-mingw32/include"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -103,153 +104,153 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"C:/msys64/mingw64/bin/c++.exe",
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/g++.exe",
 		"-std=gnu++11",
 		"-dM",
 		"-E",
 		"-c",
-		"C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+		"C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/SPL-unit-tests/SPL-unit-tests_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/SPL-unit-tests/SPL-unit-tests_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 6,
-	"PARSE_CACHE_FILE" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/SPL-unit-tests/CMakeFiles/SPL-unit-tests_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 10,
+	"PARSE_CACHE_FILE" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/SPL-unit-tests/CMakeFiles/SPL-unit-tests_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.7.2/mingw_64/./bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/6.7.2/mingw_64/./bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 7,
-	"SETTINGS_FILE" : "C:/Users/felip/CLionProjects/CS106X/cmake-build-debug/SPL-unit-tests/CMakeFiles/SPL-unit-tests_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "C:/Users/VILLELA/Documents/Code/Estudos/CS106X/cmake-build-debug/SPL-unit-tests/CMakeFiles/SPL-unit-tests_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/main.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/main.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-collection-read.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-collection-read.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-collections.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-collections.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-console.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-console.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-dawg.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-dawg.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-deque.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-deque.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-error.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-error.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-exceptions.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-exceptions.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-filelib.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-filelib.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-graphics.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-graphics.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-grid.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-grid.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-hashmap.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-hashmap.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-hashset.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-hashset.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-lex.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-lex.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-linkedlist.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-linkedlist.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-map.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-map.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-pqueue.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-pqueue.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-queue.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-queue.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-set.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-set.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-simpio.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-simpio.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-simpletest.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-simpletest.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-stack.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-stack.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-strlib.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-strlib.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-trie.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-trie.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-url.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-url.cpp",
 			"MU",
 			null
 		],
 		[
-			"C:/Users/felip/CLionProjects/CS106X/SPL-unit-tests/test-vector.cpp",
+			"C:/Users/VILLELA/Documents/Code/Estudos/CS106X/SPL-unit-tests/test-vector.cpp",
 			"MU",
 			null
 		]
